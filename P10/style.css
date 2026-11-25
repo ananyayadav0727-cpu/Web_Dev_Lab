@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.main {
+    background-color: lightblue;
+    text-align: center;
+    padding: 60px;
+}
+
+.main h1 {
+    font-size: 35px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+}
+
+
+.about {
+    text-align: center;
+    padding: 30px;
+}
+
+
+.skills {
+    text-align: center;
+    padding: 30px;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: lightgray;
+    padding: 25px;
+    width: 100px;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-around;
+}
